@@ -191,13 +191,5 @@ filename = 'adb_model.sav'
 pickle.dump(adb_opt, open(filename, 'wb'))
 
 
-################################################################
-# data visualization
-
-df[df["SpreadBP"] == 0]["has_swap_deal"].value_counts()
-
-txt = " ja kich acke "
-with open("uponnas.txt", "a") as sp:
-    sp.write(txt)
     
 
